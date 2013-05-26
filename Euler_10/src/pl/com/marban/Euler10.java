@@ -10,7 +10,7 @@ public class Euler10 {
 		long startTime = System.currentTimeMillis();
 		
 		//jakis tam komentarz
-		sitoEratostenesa(2000000);
+		sitoEratostenesa2(2000000);
 		
 		long endTime = System.currentTimeMillis();
 		
@@ -22,7 +22,7 @@ public class Euler10 {
 		//do zrobienia
 	}
 
-	private static void sitoEratostenesa(int base) {
+	private static void sitoEratostenesa2(int base) {
 		int N = base;
         boolean[] numbersTable = new boolean[N+1];
         for(int i = 2; i*i <= N; i++)
