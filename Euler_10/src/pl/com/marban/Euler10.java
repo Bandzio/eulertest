@@ -18,6 +18,9 @@ public class Euler10 {
 		System.out.print(" czas zajety na obliczenia :" +(endTime-startTime) + " [miliseconds] ,  "+(endTime-startTime)/1000+" [seconds]");
 	}
 
+	public void test(){
+		//do zrobienia
+	}
 
 	private static void sitoEratostenesa(int base) {
 		int n = base;
