@@ -13,7 +13,7 @@ public class Euler10 {
 		sitoEratostenesa(2000000);
 		
 		long endTime = System.currentTimeMillis();
-		System.out.println(" jakis tekst " );
+		
 		
 		System.out.print(" czas zajety na obliczenia :" +(endTime-startTime) + " [miliseconds] ,  "+(endTime-startTime)/1000+" [seconds]");
 	}
